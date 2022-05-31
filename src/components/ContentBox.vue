@@ -29,7 +29,8 @@ const boxClasses = reactive({
 
 <template>
     <div class="rounded content-box" :class="boxClasses">
-        <div class="font-headerFont text-2xl -mt-5 grow min-w-max text-center block-text" :class="blockClasses">{{ title
+        <div class="font-headerFont text-3xl -mt-7 grow min-w-max text-center block-text" :class="blockClasses">{{
+                title
         }}</div>
         <div class="mt-4 px-12 pb-12 text-center">
             <slot />

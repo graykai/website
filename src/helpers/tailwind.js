@@ -58,11 +58,15 @@ module.exports = {
         const blockVariants = generateColors(e, colors, ".block-text-color", [
             (value) => ["text-shadow", `${value} 0 3px 0`],
             "text-stroke-color", "-webkit-text-stroke-color"
+        ])
 
+        const halfToneVariants = generateColors(e, colors, ".half-tone", [
+            (value) => ["text-shadow", `${value} 0 2px 0`]
         ])
 
         addUtilities(primaryColorVariants, variants("primaryColor"))
         addUtilities(secondaryColorVariants, variants("secondaryColor"))
         addUtilities(blockVariants, variants("blockColor"))
+        addUtilities(halfToneVariants, variants("halfToneColor"))
     }
 }
