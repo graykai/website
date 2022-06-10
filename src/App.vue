@@ -61,18 +61,12 @@ const pastProjects = [];
           stare into what they are, who they are, and see how they are changed
           by the act of watching.
         </p>
+        <p class="prose my-3">
+          Doom Sparkle is a collaboration with
+          <a href="http://www.seattledesignnerds.org/">Seattle Design Nerds</a>
+        </p>
         <!-- <a href="/work/lusio-2022" class="text-right block">Read More…</a> -->
       </ContentBox>
-      <ContentBox
-        title="past projects"
-        color="green"
-        baseColor="#1C204F"
-        fillColor="#E8E9F3"
-        :extraClasses="basisClass"
-        v-if="pastProjects.length"
-      >
-        Something here</ContentBox
-      >
     </Columns>
   </Container>
   <div class="bg-graykai text-gray-100 mt-36">
