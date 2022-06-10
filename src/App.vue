@@ -53,7 +53,7 @@ const pastProjects = [];
           <h2 class="font-headerFont text-sm"><!-- TDB --></h2>
         </div>
         <hr />
-        <video class="aspect-video" />
+        <!-- <video class="aspect-video" /> -->
         <p class="prose my-3">
           Just beyond our vision, at the threshold between the real and the
           imaginary, Doom Sparkle is a gateway that challenges the viewer to
