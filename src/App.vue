@@ -48,9 +48,10 @@ const pastProjects = [];
         fillColor="#E8E9F3"
         :extraClasses="basisClass"
       >
-        <div class="flex flex-row gap-5 items-baseline">
+        <div class="flex flex-row gap-5 items-baseline justify-between">
           <h1 class="font-headerFont font-bold text-xl">Doom Sparkle</h1>
-          <h2 class="font-headerFont text-sm"><!-- TDB --></h2>
+          <!-- <h2 class="font-headerFont text-xs">TDB</h2> -->
+          <h3 class="font-headerFont text-xs">Projection, OpenFrameworks</h3>
         </div>
         <hr />
         <!-- <video class="aspect-video" /> -->
